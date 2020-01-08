@@ -5,10 +5,10 @@
 package main
 
 import (
-	"github.com/elastic/go-elasticsearch/v7/internal/cmd/generate/commands"
-	_ "github.com/elastic/go-elasticsearch/v7/internal/cmd/generate/commands/gensource"
-	_ "github.com/elastic/go-elasticsearch/v7/internal/cmd/generate/commands/genstruct"
-	_ "github.com/elastic/go-elasticsearch/v7/internal/cmd/generate/commands/gentests"
+	"github.com/moneway/go-elasticsearch/internal/cmd/generate/commands"
+	_ "github.com/moneway/go-elasticsearch/internal/cmd/generate/commands/gensource"
+	_ "github.com/moneway/go-elasticsearch/internal/cmd/generate/commands/genstruct"
+	_ "github.com/moneway/go-elasticsearch/internal/cmd/generate/commands/gentests"
 )
 
 func main() {

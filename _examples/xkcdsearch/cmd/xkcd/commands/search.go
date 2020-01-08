@@ -13,9 +13,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/elastic/go-elasticsearch/v7"
+	"github.com/moneway/go-elasticsearch"
 
-	"github.com/elastic/go-elasticsearch/v7/_examples/xkcdsearch"
+	"github.com/moneway/go-elasticsearch/_examples/xkcdsearch"
 )
 
 func init() {

@@ -13,7 +13,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/elastic/go-elasticsearch/v7"
+	"github.com/moneway/go-elasticsearch"
 )
 
 func main() {

@@ -15,7 +15,7 @@ import (
 
 	"gopkg.in/yaml.v2"
 
-	"github.com/elastic/go-elasticsearch/v7/internal/cmd/generate/utils"
+	"github.com/moneway/go-elasticsearch/internal/cmd/generate/utils"
 )
 
 var (

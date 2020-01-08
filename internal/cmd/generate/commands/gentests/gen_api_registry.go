@@ -29,7 +29,7 @@ func init() {
 		pkgNames = strings.Split(pkgNamesEnv, ",")
 	} else {
 		pkgNames = []string{
-			"github.com/elastic/go-elasticsearch/v7/esapi",
+			"github.com/moneway/go-elasticsearch/esapi",
 		}
 	}
 

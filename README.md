@@ -13,19 +13,19 @@ The client major versions correspond to the compatible Elasticsearch major versi
 
 When using Go modules, include the version in the import path, and specify either an explicit version or a branch:
 
-    require github.com/elastic/go-elasticsearch/v7 7.x
-    require github.com/elastic/go-elasticsearch/v7 7.0.0
+    require github.com/moneway/go-elasticsearch 7.x
+    require github.com/moneway/go-elasticsearch 7.0.0
 
 It's possible to use multiple versions of the client in a single project:
 
     // go.mod
     github.com/elastic/go-elasticsearch/v6 6.x
-    github.com/elastic/go-elasticsearch/v7 7.x
+    github.com/moneway/go-elasticsearch 7.x
 
     // main.go
     import (
       elasticsearch6 "github.com/elastic/go-elasticsearch/v6"
-      elasticsearch7 "github.com/elastic/go-elasticsearch/v7"
+      elasticsearch7 "github.com/moneway/go-elasticsearch"
     )
     // ...
     es6, _ := elasticsearch6.NewDefaultClient()
@@ -39,7 +39,7 @@ The `master` branch of the client is compatible with the current `master` branch
 
 Add the package to your `go.mod` file:
 
-    require github.com/elastic/go-elasticsearch/v7 7.x
+    require github.com/moneway/go-elasticsearch 7.x
 
 Or, clone the repository:
 
@@ -53,7 +53,7 @@ mkdir my-elasticsearch-app && cd my-elasticsearch-app
 cat > go.mod <<-END
   module my-elasticsearch-app
 
-  require github.com/elastic/go-elasticsearch/v7 7.x
+  require github.com/moneway/go-elasticsearch 7.x
 END
 
 cat > main.go <<-END
@@ -62,7 +62,7 @@ cat > main.go <<-END
   import (
     "log"
 
-    "github.com/elastic/go-elasticsearch/v7"
+    "github.com/moneway/go-elasticsearch"
   )
 
   func main() {
@@ -160,8 +160,8 @@ import (
   "strings"
   "sync"
 
-  "github.com/elastic/go-elasticsearch/v7"
-  "github.com/elastic/go-elasticsearch/v7/esapi"
+  "github.com/moneway/go-elasticsearch"
+  "github.com/moneway/go-elasticsearch/esapi"
 )
 
 func main() {

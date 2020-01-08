@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elastic/go-elasticsearch/v7"
-	"github.com/elastic/go-elasticsearch/v7/_examples/fasthttp"
+	"github.com/moneway/go-elasticsearch"
+	"github.com/moneway/go-elasticsearch/_examples/fasthttp"
 )
 
 var (

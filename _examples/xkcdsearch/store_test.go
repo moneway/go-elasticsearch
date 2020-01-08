@@ -15,9 +15,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/elastic/go-elasticsearch/v7"
+	"github.com/moneway/go-elasticsearch"
 
-	"github.com/elastic/go-elasticsearch/v7/_examples/xkcdsearch"
+	"github.com/moneway/go-elasticsearch/_examples/xkcdsearch"
 )
 
 var (

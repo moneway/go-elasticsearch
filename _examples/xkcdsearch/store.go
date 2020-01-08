@@ -12,8 +12,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/elastic/go-elasticsearch/v7"
-	"github.com/elastic/go-elasticsearch/v7/esapi"
+	"github.com/moneway/go-elasticsearch"
+	"github.com/moneway/go-elasticsearch/esapi"
 )
 
 // SearchResults wraps the Elasticsearch search response.

@@ -14,9 +14,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elastic/go-elasticsearch/v7/esapi"
-	"github.com/elastic/go-elasticsearch/v7/estransport"
-	"github.com/elastic/go-elasticsearch/v7/internal/version"
+	"github.com/moneway/go-elasticsearch/esapi"
+	"github.com/moneway/go-elasticsearch/estransport"
+	"github.com/moneway/go-elasticsearch/internal/version"
 )
 
 const (

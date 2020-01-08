@@ -13,7 +13,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/elastic/go-elasticsearch/v7/estransport"
+	"github.com/moneway/go-elasticsearch/estransport"
 )
 
 var (
